@@ -1,1 +1,22 @@
 /* Empty. Add your own CSS if you like */
+
+.bar.bar-stable {
+	background: #d73957;
+	border-color: #d73957;
+}
+
+.bar.bar-stable .title {
+	color: #fff;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#amount {
+	font-size: 30px;
+	color: #d73957;
+}
+

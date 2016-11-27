@@ -1,10 +1,14 @@
 <ion-view view-title="SPENDIMATICS">
   <ion-content class="padding">
     <div align="center">
-      <h2 class="center">Joy Picar</h2>
+      <h2 class="center">{{account.account_name}}</h2>
         <img ng-src="./img/joypicar_qr.jpg" class="center" />
         <p>Balance</p>
-        <p id="amount">P50,000</p>
+        <p id="amount">P{{account.current_balance}}</p>
+        <br>
+        <button class="button button-calm" ng-click="getAccountDetails()">
+          Refresh
+        </button>
     </div>
   </ion-content>
 </ion-view>
